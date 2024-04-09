@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Spaco website design - Dominic</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" type="text/css" href=" <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;600&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/e8acdf137f.js" crossorigin="anonymous"></script>
+	<link rel="shortcut icon" href="logo.png" type="image/x-icon">
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="Logo.jpeg">  </a>
+			<div class="nav-link" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+			     <ul>
+			     	<li><a href="index.html">HOME</a></li>
+			     	<li><a href="About.html">ABOUT</a></li>
+			     	<li><a href="Courses.html">COURSE</a></li>
+			     	<li><a href="Blog.html">BLOG</a></li>
+			     	<li><a href="Contacts.html">CONTACT</a></li>
+			     </ul>
+			</div>
+			<i class="fa fa-bars"onclick="showMenu()"></i>
+		</nav>
+	    <h1>Our Courses</h1>
+	</section>
+
+	  <!........................our courses..............>
+	<section class="courses">
+		<h1>Courses We Offer</h1>
+		<h4>General Arts, Business, General science and Visula Arts</h4>
+		    <div class="rom">
+			<div class="course-col">
+				<h3>History</h3>
+				<p>St. Paul's Senior High, Denu was established in 1958, it is a Catholic school that is part of the Roman Catholic Diocese of Keta–Akatsi and has a minor seminary attached to it.</p>
+			</div>
+			<div class="course-col">
+				<h3>Programmes</h3>
+				<p>Knowing what courses are available at St. Paul’s Senior High School is the most important thing to do before making any decisions about attending St. Paul’s SHS.</p>
+			</div>
+			<div class="course-col">
+				<h3>WAEC</h3>
+				<p>For one to choose a perfect school that will arouse ones interest to learn more, one must scrutinize thoroughly before making a choice, Location, serene environment, professional teachers, past result of the school are salient for one to know.</p>
+			</div>
+		</div>
+	</section>
+
+	<!.................Facilities...............>
+	<section class="facilities">
+		<h1>Our Facilities</h1>
+		<p>To see St. Paul’s SHS as a school which produces students with excellent academic performance, exhibit good moral traits.</p>
+		<div class="row">
+			<div class="facilities-col">
+				<img src="candet.jpeg">
+				<h3>First SHS to introduce Navy candet</h3>
+				<p>Self-disciplined and physically fit to pursue courses that will benefit themselves, their communities and the nation at large.</p>
+			</div>
+			<div class="facilities-col">
+				<img src="sposa2.jpeg">
+				<h3>Old students association</h3>
+				<p>Self-disciplined and physically fit to pursue courses that will benefit themselves, their communities and the nation at large.</p>
+			</div>
+			<div class="facilities-col">
+				<img src="maths.jpeg">
+				<h3>Science and Maths team</h3>
+				<p>Self-disciplined and physically fit to pursue courses that will benefit themselves, their communities and the nation at large.</p>
+			</div>
+		</div>
+	</section>
+
+	<!.......................Footer.....................>
+    <section class="footer">
+    	<h4>About Us</h4>
+    	<ul>
+	     	<li><a href="index.html">HOME</a></li>
+	     	<li><a href="About.html">ABOUT</a></li>
+	     	<li><a href="Courses.html">COURSE</a></li>
+	     	<li><a href="Blog.html">BLOG</a></li>
+	     	<li><a href="Contacts.html">CONTACT</a></li>
+	     </ul>
+    	<div>
+    		<p><i class="fa fa-facebook"></i>
+    		<i class="fa fa-twitter"></i>
+    		<i class="fa fa-instagram"></i>
+    		<i class="fa fa-linkedin"></i>
+    		 Made with <i class="fa fa-heart"></i> by Dominic</p>
+			<p>Slowly but surely/Striving for excellency, Dominic Web Design</p>
+			<p>Copyright &copy; 2024</p>
+    	</div>
+    </section>
+
+    <!..............Javascript for Toggle Menu..............>
+    <script>
+    	var navLinks =document.getElementById("navLinks");
+    	function showMenu(){
+    		navLinks.style.right = "0";
+    	}
+    	function hideMenu(){
+    		navLinks.style.right = "-200px";
+    	}
+    	
+    </script>
+
+
+</body>
+</html>

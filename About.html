@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Spaco website design - Dominic</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" type="text/css" href=" <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Time New Roman:wght@100;200;600&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/e8acdf137f.js" crossorigin="anonymous"></script>
+	<link rel="shortcut icon" href="logo.png" type="image/x-icon">
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="Logo.jpeg">  </a>
+			<div class="nav-link" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+			     <ul>
+			     	<li><a href="index.html">HOME</a></li>
+			     	<li><a href="About.html">ABOUT</a></li>
+			     	<li><a href="Courses.html">COURSE</a></li>
+			     	<li><a href="Blog.html">BLOG</a></li>
+			     	<li><a href="Contacts.html">CONTACT</a></li>
+			     </ul>
+			</div>
+			<i class="fa fa-bars"onclick="showMenu()"></i>
+		</nav>
+	    <h1>About Us</h1>
+	</section>
+
+	<!.......................About Us content...............>
+	<section class="about-us">
+		<div class="row">
+			<div class="about-col">
+				<h1>About great Spaco</h1>
+				 <p>The founder fathers were Fr. J. Caffrey, the chief founder and first Headmaster of St. Paul’s Secondary School. He was later
+					 joined by Rev. Fr. Seemers, who was the co-administrator of the school. Fr. J. Caffrey worked so hard to the admiration of 
+					 the Bishop. The motto of the school, which used to be “In Deo Omia Possum” (With God all things are possible), was 
+					 graduated to “Vinci in Bono Malum” (Conquer evil by doing good) to suit the lifestyle of the biblical Paul and Patron 
+					 Saint of the school and as an encouragement to Fr. Caffrey not to look back but continue his good works.</p>
+
+				 <p>The school was initially opened as a single sex boys-only secondary at a place called Three-Town, the meeting point of Denu,
+					 Hedzranawo and Adafienu townships.
+
+					For lack of enough land for the expansion of the school, the school authorities searched for a new site and found a suitable 
+					place at the school’s present location in a beautiful village called Hatsukope in the Viepe-Aflao Traditional Area, along the 
+					Denu-Ho road.</p>
+
+				 <P>The Chief of Hatsukope, Torgbui Passaku, and his elders generously donated land to the Catholic Church for the permanent 
+					siting and future expansion of the school.
+
+					In 1972, the government acquired additional land, bringing the land space of the school to 100 acres. Unfortunately, as a 
+					result of survey fraud the school is now left with less than 70 acres.</P>
+
+				 <P>With initial intake of 26 students, ST. Paul’s now has a population of 1,145, made up of 848 Boarders, 296 Day students 
+					and a staff of 144, including teaching, teachers on Internship and non-teaching. The Catholic Church and the community 
+					have co-existed in a friendly atmosphere with the community providing accommodation for some staffs as well as day students. 
+					They also volunteer information on students’ behavior outside the school premises.</P>
+
+				 <P>The first and, so far, longest-serving Ghanaian headmaster of the school was Msgr Rudolf Apietu of blessed memory. As a 
+					disciplinarian, Msgr Apietu is fondly remembered in the annals of the school, even by students who did not meet him as 
+					head of the school.
+
+					SPACO has long been associated with good discipline, sterling academic records and has no reputation of destructive student 
+					riots. Students are friendly, easy-going, jovial and generally full of beans.</P>
+
+				 <P>The products of the school can be found in all endeavours of the Ghanaian and global economy. There are found in areas such 
+					as politics, the law profession, civil servants, medicine, academia, banking, accounting, public servants, entrepreneurship 
+					and private sector as well as the security services.
+
+				    The school is now under the Episcopal jurisdiction of Keta-Akatsi Diocese headed by His Lordship Anthony Kwame Adanuty.</p>
+                  <p>
+				    <h3>FACTS ABOUT SPACO</h3>
+					<ul>
+						<li>Name of Institution: St. Paul’s Senior High School – Denu</li>
+						<li>Year of establishment: 1958</li>
+						<li>Location: The school is specifically located at Hatsukope in Viepe-Aflao</li>
+						<li>Traditional Area of the Volta Region. It is, however, usually associated with</li>
+						<li>Denu, the Capital of the Ketu-South District, which harbours this great school.</li>
+						<li>Contact: The Fixed Line of the School: +233 (0962) 30333 </li>
+					</ul> 
+					</p>
+					<a href="" class="hero-btn  ">EXPLORE NOW</a>
+			</div>
+			<div class="about-col">
+				<img src="science.jpeg">
+				<img src="Mr. Sosu.webp">
+				<img src="Sposah.webp">
+			</div>
+		</div>
+	</section>
+	
+	<!.......................Footer.....................>
+    <section class="footer">
+    	<h4>About Us</h4>
+    	<ul>
+	     	<li><a href="index.html">HOME</a></li>
+	     	<li><a href="About.html">ABOUT</a></li>
+	     	<li><a href="Courses.html">COURSE</a></li>
+	     	<li><a href="Blog.html">BLOG</a></li>
+	     	<li><a href="Contacts.html">CONTACT</a></li>
+	     </ul>
+    	<div>
+    		<p><i class="fa fa-facebook"></i>
+    		<i class="fa fa-twitter"></i>
+    		<i class="fa fa-instagram"></i>
+    		<i class="fa fa-linkedin"></i>
+    		 Made with <i class="fa fa-heart"></i> by Dominic</p>
+			<p>Slowly but surely/Striving for excellency, Dominic Web Design</p>
+			<p>Copyright &copy; 2024</p>
+
+    	</div>
+    </section>
+
+    <!..............Javascript for Toggle Menu..............>
+
+    <script>
+    	var navLinks =document.getElementById("navLinks");
+    	function showMenu(){
+    		navLinks.style.right = "0";
+    	}
+    	function hideMenu(){
+    		navLinks.style.right = "-200px";
+    	}
+    	
+    </script>
+
+
+</body>
+</html>
